@@ -57,20 +57,20 @@ export const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden py-4 flex flex-col gap-4 border-t border-border">
-            <button onClick={() => scrollToSection("home")} className="text-left text-foreground hover:text-primary transition-colors">
+          <nav className="md:hidden py-4 flex flex-col gap-4 border-t border-border animate-fade-in">
+            <button onClick={() => scrollToSection("home")} className="text-left text-foreground hover:text-primary transition-colors py-2 px-2 -mx-2 rounded hover:bg-secondary/50">
               Home
             </button>
-            <button onClick={() => scrollToSection("about")} className="text-left text-foreground hover:text-primary transition-colors">
+            <button onClick={() => scrollToSection("about")} className="text-left text-foreground hover:text-primary transition-colors py-2 px-2 -mx-2 rounded hover:bg-secondary/50">
               About
             </button>
-            <button onClick={() => scrollToSection("services")} className="text-left text-foreground hover:text-primary transition-colors">
+            <button onClick={() => scrollToSection("services")} className="text-left text-foreground hover:text-primary transition-colors py-2 px-2 -mx-2 rounded hover:bg-secondary/50">
               Services
             </button>
-            <button onClick={() => scrollToSection("vision")} className="text-left text-foreground hover:text-primary transition-colors">
+            <button onClick={() => scrollToSection("vision")} className="text-left text-foreground hover:text-primary transition-colors py-2 px-2 -mx-2 rounded hover:bg-secondary/50">
               Vision
             </button>
-            <Button onClick={() => scrollToSection("contact")} variant="cta" size="sm" className="w-full">
+            <Button onClick={() => scrollToSection("contact")} variant="cta" size="lg" className="w-full mt-2">
               Get Quote
             </Button>
           </nav>

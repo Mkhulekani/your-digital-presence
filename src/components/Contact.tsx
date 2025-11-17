@@ -3,20 +3,20 @@ import { Button } from "@/components/ui/button";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-secondary">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+    <section id="contact" className="py-12 sm:py-16 md:py-20 bg-secondary">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Get In Touch
           </h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-6" />
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
             Ready to start your next project? Contact us today for a consultation and discover how we can bring your vision to life.
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
             <div className="bg-card p-8 rounded-lg shadow-card">
               <div className="flex items-start gap-4 mb-6">
                 <div className="w-12 h-12 bg-construction-blue-light rounded-lg flex items-center justify-center flex-shrink-0">
@@ -60,11 +60,11 @@ export const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-primary to-construction-blue-dark text-primary-foreground p-8 md:p-12 rounded-lg text-center">
-            <h3 className="text-2xl md:text-3xl font-bold mb-4">
+          <div className="bg-gradient-to-r from-primary to-construction-blue-dark text-primary-foreground p-6 sm:p-8 md:p-12 rounded-lg text-center">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
               Why Choose Renocrete Construction?
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6 sm:mt-8">
               <div>
                 <div className="text-4xl font-bold text-accent mb-2">13+</div>
                 <p className="text-primary-foreground/90">Years of Experience</p>

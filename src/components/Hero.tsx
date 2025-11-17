@@ -29,19 +29,19 @@ export const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
+      <div className="container mx-auto px-4 sm:px-6 relative z-10">
+        <div className="max-w-3xl animate-fade-in">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-4 sm:mb-6 leading-tight">
             Building Excellence in Civil & Structural Works
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl">
+          <p className="text-base sm:text-lg md:text-xl text-primary-foreground/90 mb-6 sm:mb-8 max-w-2xl">
             Leading South Africa's construction industry with innovative solutions, precision engineering, and unwavering commitment to quality.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button onClick={scrollToContact} variant="cta" size="lg" className="text-base">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+            <Button onClick={scrollToContact} variant="cta" size="lg" className="text-base sm:text-lg w-full sm:w-auto">
               Request a Quote
             </Button>
-            <Button onClick={scrollToServices} variant="outline" size="lg" className="text-base bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20 hover:text-primary-foreground">
+            <Button onClick={scrollToServices} variant="outline" size="lg" className="text-base sm:text-lg w-full sm:w-auto bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20 hover:text-primary-foreground">
               Our Services
             </Button>
           </div>

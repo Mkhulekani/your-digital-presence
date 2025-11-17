@@ -25,19 +25,19 @@ export const Vision = () => {
   ];
 
   return (
-    <section id="vision" className="py-20 bg-gradient-to-br from-primary to-construction-blue-dark text-primary-foreground">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+    <section id="vision" className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-primary to-construction-blue-dark text-primary-foreground">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Our Vision
           </h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-6" />
-          <p className="text-lg text-primary-foreground/90 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-primary-foreground/90 max-w-3xl mx-auto">
             Committed to excellence, innovation, and sustainable development in every project we undertake
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {visionPoints.map((point, index) => (
             <div 
               key={index}
