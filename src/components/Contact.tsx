@@ -34,17 +34,28 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                  <p className="text-muted-foreground">Contact us for project inquiries</p>
+                  <a href="tel:0734554780" className="text-muted-foreground hover:text-primary transition-colors block">073 455 4780</a>
+                  <a href="tel:0817485825" className="text-muted-foreground hover:text-primary transition-colors block">081 748 5825</a>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 mb-6">
                 <div className="w-12 h-12 bg-construction-blue-light rounded-lg flex items-center justify-center flex-shrink-0">
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                  <p className="text-muted-foreground">Get in touch via email</p>
+                  <a href="mailto:osnotununu@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">osnotununu@gmail.com</a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-construction-blue-light rounded-lg flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-foreground mb-1">Address</h3>
+                  <p className="text-muted-foreground">2 Jolly Close, 35 First Avenue<br />Alberton North, 1450</p>
                 </div>
               </div>
             </div>
@@ -54,8 +65,8 @@ export const Contact = () => {
               <p className="text-muted-foreground mb-6">
                 Fill out our contact form or reach out directly to discuss your construction project requirements. Our team will respond promptly with a detailed proposal.
               </p>
-              <Button variant="cta" size="lg" className="w-full">
-                Contact Us Now
+              <Button variant="cta" size="lg" className="w-full" asChild>
+                <a href="tel:0734554780">Contact Us Now</a>
               </Button>
             </div>
           </div>
