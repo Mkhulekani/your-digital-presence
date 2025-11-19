@@ -1,5 +1,5 @@
 import buildingImage from "@/assets/building-construction.jpg";
-import roadImage from "@/assets/road-construction.jpg";
+import civilImage from "@/assets/civil-engineering.jpg";
 import projectImage from "@/assets/project-management.jpg";
 
 export const Services = () => {
@@ -7,7 +7,7 @@ export const Services = () => {
     {
       title: "Civil Engineering Structures and Roads Construction",
       description: "Construction ranging from steel structures erections, reinforced concrete structures and road construction in gravel, paving blocks, concrete, bitumen roads and associated drainage structures.",
-      image: roadImage,
+      image: civilImage,
     },
     {
       title: "Building Construction",
